@@ -1,0 +1,30 @@
+name: foodrescue_ai
+description: FoodRescue AI - food rescue, local AI, custom maps and community delivery.
+publish_to: "none"
+version: 1.1.0+2
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  maplibre_gl: ^0.27.1
+  tflite_flutter: ^0.12.1
+  image: ^4.5.4
+  google_mlkit_text_recognition: ^0.17.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/models/
